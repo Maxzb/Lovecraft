@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Times New Roman Regular';
+  src: url("../font/TimesNewRomanPSMT.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Times New Roman Italic';
+  src: url("../font/TimesNewRomanPS-ItalicMT.woff") format("woff");
+}
+
+* {
+  font-family: 'Times New Roman Regular';
+}
+
+body {
+  background-color: #020202;
+  color: #EBEBEB;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=style.css.map */
