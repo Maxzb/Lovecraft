@@ -15,6 +15,305 @@
 body {
   background-color: #020202;
   color: #EBEBEB;
-  letter-spacing: 3px;
+  letter-spacing: 0.07em;
+}
+
+button:link, button:visited, button:hover, button:focus, button:active,
+a:link, a:visited, a:hover, a:focus, a:active,
+.book_title:link, .book_title:visited, .book_title:hover, .book_title:focus, .book_title:active,
+.slick-slide:link, .slick-slide:visited, .slick-slide:hover, .slick-slide:focus, .slick-slide:active {
+  border: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #717171;
+}
+
+.nav_link:hover {
+  text-decoration: none;
+  color: #079992;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+nav {
+  margin-top: 6px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  width: 137px;
+  height: 53px;
+  background: url("/img/main/white_sign.png") center no-repeat/contain;
+  margin-top: 13px;
+}
+
+.quote {
+  font-size: 20px;
+  margin-top: 190px;
+  font-style: italic;
+}
+
+.first_name {
+  margin-top: 201px;
+  letter-spacing: 0.10em;
+  margin-bottom: 0;
+}
+
+.surname {
+  font-size: 90px;
+  height: 90px;
+  margin-bottom: 0;
+  letter-spacing: 0.05em;
+}
+
+.text_legacy {
+  font-size: 24px;
+  font-style: italic;
+  color: #393939;
+  text-align: right;
+  margin-right: 70px;
+  margin-bottom: 192px;
+}
+
+.main_foto {
+  width: 288px;
+  height: 560px;
+  background: url("/img/main/main_foto.png") no-repeat center center/contain;
+  margin-top: 70px;
+}
+
+.title_section {
+  color: #717171;
+  font-size: 32px;
+  margin-left: 3px;
+  letter-spacing: 0.05em;
+}
+
+.bio_foto {
+  max-width: 225px;
+  height: 416px;
+  background: url("/img/main/img.jpg") no-repeat center center/cover;
+  margin: 96px 0 0 21px;
+}
+
+.bio_text {
+  margin-left: -23px;
+  margin-top: 61px;
+  line-height: 27.5px;
+  letter-spacing: 0.10em;
+  white-space: pre;
+}
+
+.more_info {
+  display: block;
+  color: #717171;
+  margin: 23px 0 150px 54px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.more_info:hover {
+  text-decoration: none;
+  color: #079992;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.book {
+  display: block;
+  width: 220px;
+  height: 373px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin: 96px 0 220px 55px;
+  border: none;
+}
+
+.book:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-decoration: none;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.book1 {
+  background: url("/img/books/book_1.jpg") no-repeat center center/cover;
+}
+
+.book2 {
+  background: url("/img/books/book_2.jpg") no-repeat center center/cover;
+}
+
+.book3 {
+  background: url("/img/books/book_3.jpg") no-repeat center center/cover;
+}
+
+.book4 {
+  background: url("/img/books/book_4.jpg") no-repeat center center/cover;
+}
+
+.book5 {
+  background: url("/img/books/book_5.jpg") no-repeat center center/cover;
+}
+
+.book6 {
+  background: url("/img/books/book_6.jpg") no-repeat center center/cover;
+}
+
+.book_title {
+  display: block;
+  width: 220px;
+  height: 53px;
+  font-size: 18px;
+  color: #717171;
+  letter-spacing: 0.07em;
+  padding-top: 385px;
+  text-align: center;
+}
+
+.book_title:hover {
+  color: #EBEBEB;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.monster_block {
+  width: 1010px;
+  margin: 80px 0 0 -30px;
+}
+
+.monster_name {
+  color: #717171;
+  font-size: 20px;
+}
+
+.monster_name:hover {
+  color: #079992;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.monster_frame {
+  display: relative;
+  width: 980px;
+  height: 400px;
+  border: 1px solid #EBEBEB;
+  margin-top: 25px;
+}
+
+.monster_card {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  width: 980px;
+  height: 400px;
+  border: 1px solid #EBEBEB;
+  opacity: 0;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.active_monster {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.monster_img {
+  width: 265px;
+  height: 398px;
+  margin: 0;
+}
+
+.chtulhu_img {
+  background: url("/img/monsters/Main_Cthulhu.png") no-repeat center center/cover;
+}
+
+.dagon_img {
+  background: url("/img/monsters/Main_Dagon.png") no-repeat center center/cover;
+}
+
+.shab-nigurath_img {
+  background: url("/img/monsters/Main_Shub-Niggurath.png") no-repeat center center/cover;
+}
+
+.yog-sothoth_img {
+  background: url("/img/monsters/Main_yog-sothoth.png") no-repeat center center/cover;
+}
+
+.deep_ones_img {
+  background: url("/img/monsters/Main_Deep.png") no-repeat center center/cover;
+}
+
+.great_old_ones_img {
+  background: url("/img/monsters/Main_Great_Old_One.png") no-repeat center center/cover;
+}
+
+.monster_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 680px;
+  height: 398px;
+  text-align: center;
+}
+
+.monster_info_name {
+  font-size: 30px;
+}
+
+.uzor {
+  width: 300px;
+  height: 35px;
+  background: url("/img/main/uzor_white.png") no-repeat center center/contain;
+  margin: 15px auto;
+}
+
+.monster_text {
+  width: 595px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.chtul {
+  color: #079992;
 }
 /*# sourceMappingURL=style.css.map */

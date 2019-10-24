@@ -4,17 +4,205 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
     <title>H.P.Lovecraft site</title>
   </head>
   <body>
+    <header>
      <div class="container">
-         <div class="row">
-            <div class="col-md-6">
-               <h1>LOVECRAFT</h1>
+         <div class="row align-items-center">
+            <div class="col-lg-7">
+              <div><a href="#" class="logo" title="H.P.Lovecraft"></a></div>
             </div>
+            <nav class="col-lg-5">
+              <ul class="d-flex justify-content-between">
+                <li><a href="#" class="nav_link">Biography</a></li>
+                <li><a href="#" class="nav_link">Books</a></li>
+                <li><a href="#" class="nav_link">Monsters</a></li>
+                <li><a href="#" class="nav_link">Games</a></li>
+                <li><a href="#" class="nav_link">Films</a></li>
+              </ul>
+            </nav>
+         </div>
+         <div class="row">
+           <div class="col-lg-7">
+             <p class="quote">"The oldest and strongest emotion of mankind is fear"</p>
+             <h2 class="first_name">Howard Phillips</h2>
+             <h1 class="surname">LOVECRAFT</h1>
+             <p class="text_legacy">and his legacy</p>
+           </div>
+           <div class="col-lg-5 main_foto"></div>
          </div>
       </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+              <h2 class="title_section">Biography</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 bio_foto"></div>
+          <div class="col-lg-9">
+            <p class="bio_text">
+              Howard Phillips Lovecraft (August 20, 1890–March 15, 1937) was an American writer of weird
+              fiction and horror fiction. Born in Providence, Rhode Island, he spent most of his life there, 
+              and his fiction was primarily set against a New England backdrop. Lovecraft was never able to
+              support himself from earnings as an author and editor, and he subsisted in progressively
+              strained circumstances in his last years. He died of cancer at the age of 46.
+
+              Lovecraft was virtually unknown during his lifetime and published only in pulp magazines
+              before he died in poverty, but is now regarded as one of the most significant 20th-century
+              authors of weird and horror fiction. Among his most celebrated tales are The Rats in the
+              Walls,The Call of Cthulhu, At the Mountains of Madness, The Shadow over Innsmouth, and
+              The Shadow Out of Time. His writings were the basis of the Cthulhu Mythos, which has
+              inspired a large body of pastiches, games, music and other media drawing on Lovecraft's
+              characters, setting and themes, constituting a wider body of work known as Lovecraftian
+              horror.</p>
+              <a href="https://en.wikipedia.org/wiki/H._P._Lovecraft" target="_blank" class="more_info">More info</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2 class="title_section">Books</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 slider">
+            <div>
+              <a href="#book1" class="book book1">
+                <p class="book_title">The Dunwich horror (1929)</p>
+              </a>
+            </div>
+            <div>
+              <a href="#book2" class="book book2">
+                <p class="book_title">The horror in the museum (1933)</p>
+              </a>
+            </div>
+            <div>
+              <a href="#book3" class="book book3">
+                  <p class="book_title">The Shadow over Innsmouth (1936)</p>
+              </a>
+            </div>
+            <div>
+              <a href="#book4" class="book book4">
+                <p class="book_title">At the Mountains of Madness (1936)</p>
+              </a>
+            </div>
+            <div>
+              <a href="#book5" class="book book5">
+                <p class="book_title">Dagon and Other Macabre Tales (1965)</p>
+              </a>
+            </div>
+            <div>
+              <a href="#book6" class="book book6">
+                <p class="book_title">The Spawn of Cthulhu (1971)</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2 class="title_section">Monsters</h2>
+          </div>
+        </div>
+        <div class="row monster_block">
+          <div class="offset-1 col-lg-12">
+            <ul class="d-flex justify-content-between">
+              <li><a href="#chtulhu" class="monster_name chtul">Chtulhu</a></li>
+              <li><a href="#dagon" class="monster_name dag">Dagon</a></li>
+              <li><a href="#shab-Nigurath" class="monster_name shab">Shab-Nigurath</a></li>
+              <li><a href="#yog-Sothoth" class="monster_name yog">Yog-Sothoth</a></li>
+              <li><a href="#deep_Ones" class="monster_name deep">Deep Ones</a></li>
+              <li><a href="#great_Old_Ones" class="monster_name old">Great Old Ones</a></li>
+            </ul>
+
+            <div class="monster_frame">
+              <div class="monster_card active_monster chtulhu">
+                <div class="monster_img chtulhu_img"></div>
+                <div class="monster_info">
+                  <div class="monster_info_name">Chtulhu</div>
+                  <div class="uzor"></div>
+                  <div class="monster_text">
+                      Fictional cosmic entity created by writer H. P. Lovecraft and first introduced in the short story "The Call of Cthulhu", published in the American pulp magazine Weird Tales in 1928. Considered a Great Old One within the pantheon of Lovecraftian cosmic entities, the creature has since been featured in numerous popular culture references. Lovecraft depicts Cthulhu as a gigantic entity worshipped by cultists. Cthulhu's appearance is described as looking like an octopus, a dragon, and a caricature of human form. Its name was given to the Lovecraft-inspired universe where it and its fellow entities existed, the Cthulhu Mythos.
+                  </div>
+                </div>
+              </div>
+              <div class="monster_card dagon">
+                <div class="monster_img dagon_img"></div>
+                <div class="monster_info">
+                  <div class="monster_info_name">Dagon</div>
+                  <div class="uzor"></div>
+                  <div class="monster_text">
+                      Dagon is an enormous specimen of Deep One who has been mentioned in texts since ancient times. He is worshipped by a devout cult of humans and Deep Ones, who revere him as their deity. While apparently immortal, his longevity may be attributable to his fraternization with the Star Spawn, who sometimes select formidable specimens from a given species to protect, nurture, and empower for reasons known only to them.
+
+                      It may also be that there has been more than one gigantic specimen of Deep Ones who have been confused with the original Dagon. All Deep Ones continue to grow slowly after they reach maturity, provided that they are within reach of steady diet. Indeed, there are ancient Dagon carvings that display what appear to be several gigantic Deep Ones wrestling with whales.
+                      
+                      
+                  </div>
+                </div>
+              </div>
+              <div class="monster_card shab-nigurath">
+                <div class="monster_img shab-nigurath_img"></div>
+                <div class="monster_info">
+                  <div class="monster_info_name">Shab-Nigurath</div>
+                  <div class="uzor"></div>
+                  <div class="monster_text">
+                      A deity in the Cthulhu Mythos of H. P. Lovecraft. The only other name by which H. P. Lovecraft referred to her was "Lord of the Wood" in his story The Whisperer in Darkness.
+                      Shub-Niggurath is first mentioned in Lovecraft's revision story "The Last Test" (1928); she is not described by Lovecraft, but is frequently mentioned or called upon in incantations. Most of her development as a literary figure was carried out by other Mythos authors, including August Derleth, Robert Bloch, and Ramsey Campbell.
+                      August Derleth classified Shub-Niggurath as a Great Old One, but the Call of Cthulhu role-playing game classifies her as an Outer God. The CthulhuTech role-playing game, in turn, returns to Derleth's classification of Shub-Niggurath as a Great Old One.
+                  </div>
+                </div>
+              </div>
+              <div class="monster_card yog-sothoth">
+                <div class="monster_img yog-sothoth_img"></div>
+                <div class="monster_info">
+                  <div class="monster_info_name">Yog-Sothoth</div>
+                  <div class="uzor"></div>
+                  <div class="monster_text">
+                      Like many Lovecraftian gods, Yog-Sothoth has many different appearances throughout the various stories of the mythos, by various authors. However, there seems to be a common agreement that Yog-Sothoth visually manifests as a mass of glowing orbs, with eyes or tendrils in some versions, and in others simply the orbs.
+
+                      It is heavily implied, if not outright stated, that Yog-Sothoth is omniscient, and is locked outside the universe, meaning he can know and see all of space-time all at once, which means there is no secret hidden from Yog-Sothoth. 
+                  </div>
+                </div>
+              </div>
+              <div class="monster_card deep_ones">
+                <div class="monster_img deep_ones_img"></div>
+                <div class="monster_info">
+                  <div class="monster_info_name">Deep Ones</div>
+                  <div class="uzor"></div>
+                  <div class="monster_text">
+                      Creatures in the Cthulhu Mythos of H. P. Lovecraft. The beings first appeared in Lovecraft's novella The Shadow Over Innsmouth (1931), but were already hinted at in the early short story "Dagon". The Deep Ones are a race of intelligent ocean-dwelling creatures, approximately human-shaped but with a fishy appearance. They regularly mate with humans along the coast, creating societies of hybrids.
+
+                      Numerous Mythos elements are associated with the Deep Ones, including the legendary town of Innsmouth, the undersea city of Y'ha-nthlei, the Esoteric Order of Dagon, and the beings known as Father Dagon and Mother Hydra. After their debut in Lovecraft's tale, the sea-dwelling creatures resurfaced in the works of other authors, especially August Derleth.
+                  </div>
+                </div>
+              </div>
+              <div class="monster_card great_old_ones">
+                <div class="monster_img great_old_ones_img"></div>
+                <div class="monster_info">
+                  <div class="monster_info_name">Great Old Ones</div>
+                  <div class="uzor"></div>
+                  <div class="monster_text">
+                      The Great Old Ones are to be distinguished from the more cosmically placed entities such as Azathoth, Nyarlathotep and Yog-Sothoth, and from races such as the Chthonians, the Deep Ones, the Elder Things and the Mi-go. Yet this distinction is unclear at times, in part because the terminology is not always consistent; for instance, Nyarlathotep, despite his marked interest in Earth and its culture, is generally considered to be one of the Outer Gods instead of a Great Old One. On the other hand, Hastur has several avatars and is generally based in outer space, but he is still considered a Great Old One. There are conflicting accounts on what the proper classification for Shub-Niggurath would be.
+
+                      Very few people dispute that Azathoth and Yog-Sothoth are Outer Gods instead of Great Old Ones, although some accounts make them ancestors of a few Great Old Ones.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
    
 
 
@@ -48,10 +236,13 @@
 
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/slick/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/slick/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
   </body>
 </html>

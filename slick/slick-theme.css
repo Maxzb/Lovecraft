@@ -25,7 +25,7 @@
   cursor: pointer;
   background: transparent;
   color: transparent;
-  top: 50%;
+  top: 45%;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   padding: 0;
@@ -33,7 +33,7 @@
   outline: none;
 }
 
-.slick-prev:hover, .slick-prev:focus,
+/*.slick-prev:hover, .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
   outline: none;
@@ -50,7 +50,7 @@
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before {
   opacity: 0.25;
-}
+}*/
 
 .slick-prev:before,
 .slick-next:before {
@@ -64,6 +64,9 @@
 }
 
 .slick-prev {
+  width: 26px;
+  height: 49px;
+  background: url('/slick/arrow_left.png') no-repeat center center / cover;
   left: -25px;
 }
 
@@ -73,7 +76,7 @@
 }
 
 .slick-prev:before {
-  content: "←";
+  content: "";
 }
 
 [dir="rtl"] .slick-prev:before {
@@ -81,6 +84,9 @@
 }
 
 .slick-next {
+  width: 26px;
+  height: 49px;
+  background: url('/slick/arrow_right.png') no-repeat center center / cover;
   right: -25px;
 }
 
@@ -89,7 +95,7 @@
   right: auto;
 }
 
-.slick-next:before {
+//.slick-next:before {
   content: "→";
 }
 
