@@ -50,7 +50,7 @@
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before {
   opacity: 0.25;
-}*/
+}
 
 .slick-prev:before,
 .slick-next:before {
@@ -61,11 +61,11 @@
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}*/
 
 .slick-prev {
-  width: 26px;
-  height: 49px;
+  width: 27px;
+  height: 43px;
   background: url('/slick/arrow_left.png') no-repeat center center / cover;
   left: -25px;
 }
@@ -76,7 +76,7 @@
 }
 
 .slick-prev:before {
-  content: "";
+  content: "←";
 }
 
 [dir="rtl"] .slick-prev:before {
@@ -84,10 +84,10 @@
 }
 
 .slick-next {
-  width: 26px;
-  height: 49px;
+  width: 27px;
+  height: 43px;
   background: url('/slick/arrow_right.png') no-repeat center center / cover;
-  right: -25px;
+  right: -20px;
 }
 
 [dir="rtl"] .slick-next {
@@ -95,7 +95,7 @@
   right: auto;
 }
 
-//.slick-next:before {
+.slick-next:before {
   content: "→";
 }
 
