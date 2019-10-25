@@ -68,3 +68,8 @@ $('.slider').slick({
       $('.old').css('color', '#079992');   
    });
 });
+
+$('.films_cards').slick({
+   dots: true,
+   arrows: false,
+});
