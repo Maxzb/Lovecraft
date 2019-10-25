@@ -72,4 +72,6 @@ $('.slider').slick({
 $('.films_cards').slick({
    dots: true,
    arrows: false,
+   autoplay: true,
+   autoplaySpeed: 2500,
 });
