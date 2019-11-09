@@ -18,11 +18,11 @@
             </div>
             <nav class="col-lg-5">
               <ul class="d-flex justify-content-between">
-                <li><a href="#" class="nav_link">Biography</a></li>
-                <li><a href="#" class="nav_link">Books</a></li>
-                <li><a href="#" class="nav_link">Monsters</a></li>
-                <li><a href="#" class="nav_link">Games</a></li>
-                <li><a href="#" class="nav_link">Films</a></li>
+                <li><a href="#bio" class="nav_link" onclick="slowScroll('#bio')">Biography</a></li>
+                <li><a href="#book" class="nav_link" onclick="slowScroll('#book')">Books</a></li>
+                <li><a href="#mon" class="nav_link" onclick="slowScroll('#mon')">Monsters</a></li>
+                <li><a href="#game" class="nav_link" onclick="slowScroll('#game')">Games</a></li>
+                <li><a href="#film" class="nav_link" onclick="slowScroll('#film')">Films</a></li>
               </ul>
             </nav>
          </div>
@@ -41,7 +41,7 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3" id="bio">
               <h2 class="title_section">Biography</h2>
           </div>
         </div>
@@ -69,7 +69,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3" id="book">
             <h2 class="title_section">Books</h2>
           </div>
         </div>
@@ -110,7 +110,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3" id="mon">
             <h2 class="title_section">Monsters</h2>
           </div>
         </div>
@@ -202,7 +202,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3" id="game">
             <h2 class="title_section">Games</h2>
           </div>
           <div class="container">
@@ -273,7 +273,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3" id="film">
             <h2 class="title_section films_title">Films</h2>
           </div>
       </div>
@@ -313,46 +313,25 @@
         </div>
       </div>
     </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 foot_main">
+            <div class="foot_logo">
+              <div class="foot_logo__foto"></div>
+              <div class="foot_logo__name"></div>
+            </div>
+            <div class="foot_center_name">H.P. Lovecraft 2019</div>
+            <div class="foot_addr">Mail address: <br> US, 02903, Rhode Island, Providence, 66 College Street</div>
+          </div>
+        </div>
+      </div>
+    </footer>
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="/slick/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="/slick/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="/slick/slick.min.js"></script>
-    <script type="text/javascript" src="/js/script.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/slick/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/slick/slick.min.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
